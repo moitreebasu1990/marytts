@@ -1,17 +1,17 @@
-**
+/**
  * Portions Copyright 2006 DFKI GmbH.
  * Portions Copyright 2001 Sun Microsystems, Inc.
- * Portions Copyright 1999-2001 Language Technologies Institute, 
+ * Portions Copyright 1999-2001 Language Technologies Institute,
  * Carnegie Mellon University.
  * All Rights Reserved.  Use is subject to license terms.
- * 
+ *
  * Permission is hereby granted, free of charge, to use and distribute
  * this software and its documentation without restriction, including
  * without limitation the rights to use, copy, modify, merge, publish,
  * distribute, sublicense, and/or sell copies of this work, and to
  * permit persons to whom this work is furnished to do so, subject to
  * the following conditions:
- * 
+ *
  * 1. The code must retain the above copyright notice, this list of
  *    conditions and the following disclaimer.
  * 2. Any modifications must be clearly marked as such.
@@ -31,37 +31,18 @@
  */
 package marytts.unitselection.io;
 
-import java.io.ByteArrayInputStream;
-import java.io.DataInput;
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.io.UTFDataFormatException;
-import java.nio.BufferUnderflowException;
-import java.nio.ByteBuffer;
-import java.nio.MappedByteBuffer;
-import java.nio.channels.FileChannel;
-import java.util.ArrayList;
-import java.util.Vector;
-
-import marytts.exceptions.MaryConfigurationException;
-import marytts.util.MaryUtils;
-import marytts.util.Pair;
-import marytts.util.data.Datagram;
-import marytts.util.data.MaryHeader;
-import marytts.util.io.StreamUtils;
 
 /**
  * The TimelineReader class provides an interface to read regularly or variably spaced datagrams from a Timeline data file in Mary
  * format.
- * 
+ *
  * @author sacha, marc
  *
  */
 public class Timeline {
 
-	public static void main(String args[]){
+    public static void main(String args[]){
 
-		System.out.println("Hello from Timeline");
-	}
+        System.out.println("Hello from Timeline");
+    }
 }
