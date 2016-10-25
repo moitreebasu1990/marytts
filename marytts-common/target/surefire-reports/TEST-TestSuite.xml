@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.162" tests="84" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="user.country.format" value="DE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/moitree/workspace/dfki/marytts"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/moitree/workspace/dfki/marytts"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/l_/kc0x788d0tx0n4t4b2s8kym40000gs/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/moitree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/moitree"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="moitree"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -e install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="java.ext.dirs" value="/Users/moitree/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testGetInvalidAllophone" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.013"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.012"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLegacySyllabifyWithoutNucleus" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLoadOnceReuse" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testLoadedIsAvailable" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSplitIntoAllophoneListWithInvalidInput" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.002"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.002"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabifyWithEmptyInput" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabifyWithoutNucleus" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testUnloadedIsUnavailable" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testVersion" classname="marytts.VersionTest" time="0.007">
+    <failure message="expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: expected object to not be null
+	at marytts.VersionTest.testVersion(VersionTest.java:11)
+</failure>
+  </testcase>
+  <testcase name="validatingParseStream on validatingParseStream(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.091"/>
+  <testcase name="validatingParseString on validatingParseString(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.041"/>
+  <testcase name="tooLargeList on tooLargeList(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0.001"/>
+  <testcase name="maxListContainsString on maxListContainsString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListDoesntContainString on smallListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListContainsByte on maxListContainsByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListLength on maxListLength(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListCompareString on maxListCompareString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListContainsString on smallListContainsString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListContainsByte on smallListContainsByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0.001"/>
+  <testcase name="canCreateMaxList on canCreateMaxList(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListDoesntContainString on maxListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListCompareString on smallListCompareString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListDoesntContainByte on smallListDoesntContainByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="smallListLength on smallListLength(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListCompareString2 on maxListCompareString2(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+</testsuite>

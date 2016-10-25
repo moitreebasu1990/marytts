@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="68" passed="67">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="152" started-at="2016-10-24T14:11:44Z" finished-at="2016-10-24T14:11:44Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="152" started-at="2016-10-24T14:11:44Z" finished-at="2016-10-24T14:11:44Z">
+      <class name="marytts.modules.phonemiser.AllophoneSetTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetInvalidAllophone()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testGetInvalidAllophone" duration-ms="12" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Allophone `fnord' could not be found in AllophoneSet `sampa' (Locale: de)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Allophone `fnord' could not be found in AllophoneSet `sampa' (Locale: de)
+	at marytts.modules.phonemiser.AllophoneSet.getAllophone(AllophoneSet.java:228)
+	at marytts.modules.phonemiser.AllophoneSetTest.testGetInvalidAllophone(AllophoneSetTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInvalidAllophone -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="11" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma1ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma1mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama1ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma1mamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamama1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama1mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamama1ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - ' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="legacySyllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamamama1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabify -->
+        <test-method status="PASS" signature="testLegacySyllabifyWithoutNucleus()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLegacySyllabifyWithoutNucleus" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLegacySyllabifyWithoutNucleus -->
+        <test-method status="PASS" signature="testLoadOnceReuse()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLoadOnceReuse" duration-ms="1" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadOnceReuse -->
+        <test-method status="PASS" signature="testLoadedIsAvailable()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testLoadedIsAvailable" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadedIsAvailable -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOYtOY'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY t OY ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY tOY 'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY t OY ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY - t OY - t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY - t OY - t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitAllophoneString(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitAllophoneString" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY-tOY-'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY - t OY - ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitAllophoneString -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY tOY 'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY t OY ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOYtOY'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY t OY ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY t OY t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' t OY - t OY - t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY-tOY-'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, t OY - t OY - ' t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneList(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneList" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneStringData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t OY - t OY - t OY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneList -->
+        <test-method status="PASS" signature="testSplitIntoAllophoneListWithInvalidInput()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophoneListWithInvalidInput" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Found unknown symbol `!' in phonetic string `!@#$%^' -- ignoring.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Found unknown symbol `!' in phonetic string `!@#$%^' -- ignoring.
+	at marytts.modules.phonemiser.AllophoneSet.splitIntoAllophoneList(AllophoneSet.java:432)
+	at marytts.modules.phonemiser.AllophoneSet.splitIntoAllophoneList(AllophoneSet.java:370)
+	at marytts.modules.phonemiser.AllophoneSetTest.testSplitIntoAllophoneListWithInvalidInput(AllophoneSetTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophoneListWithInvalidInput -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOYtOYtOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOYtOY'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tOY tOY tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY tOY 'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="2" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['tOY-tOY-tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSplitIntoAllophones(java.lang.String, [Lmarytts.modules.phonemiser.Allophone;)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSplitIntoAllophones" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="allophoneArrayData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,tOY-tOY-'tOY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lmarytts.modules.phonemiser.Allophone;@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSplitIntoAllophones -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma'ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma'mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['mamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama'ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['mamamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' m a - m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ma'mamama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - ' m a - m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama'mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - ' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamama'ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m a - m a - m a - ' m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,mama'mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, m a - m a - ' m a - m a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StaInSla:k]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' S t aI n - S l a: k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a:b6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' a: - b 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daU6vU6st]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' d aU - 6 - v U 6 s t]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StRUntsdUm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' S t R U n ts - d U m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="0" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fOY6maU6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' f OY - 6 - m aU - 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,ha6tbE6ktU6mg@'ve:6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, h a 6 t - b E 6 k - t U 6 m - g @ - ' v e: 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabify(java.lang.String, java.lang.String)[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabify" duration-ms="1" started-at="2016-10-24T16:11:44Z" data-provider="syllabifierData" finished-at="2016-10-24T16:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['pfaU@n,SlOY@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' pf aU - @ n - , S l OY - @]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabify -->
+        <test-method status="PASS" signature="testSyllabifyWithEmptyInput()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabifyWithEmptyInput" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot syllabify empty phone string]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot syllabify empty phone string
+	at marytts.modules.phonemiser.AllophoneSet.syllabify(AllophoneSet.java:479)
+	at marytts.modules.phonemiser.AllophoneSetTest.testSyllabifyWithEmptyInput(AllophoneSetTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabifyWithEmptyInput -->
+        <test-method status="PASS" signature="testUnloadedIsUnavailable()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testUnloadedIsUnavailable" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnloadedIsUnavailable -->
+        <test-method status="PASS" signature="testSyllabifyWithoutNucleus()[pri:0, instance:marytts.modules.phonemiser.AllophoneSetTest@3d24753a]" name="testSyllabifyWithoutNucleus" duration-ms="0" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSyllabifyWithoutNucleus -->
+      </class> <!-- marytts.modules.phonemiser.AllophoneSetTest -->
+      <class name="marytts.VersionTest">
+        <test-method status="FAIL" signature="testVersion()[pri:0, instance:marytts.VersionTest@59a6e353]" name="testVersion" duration-ms="1" started-at="2016-10-24T16:11:44Z" finished-at="2016-10-24T16:11:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:423)
+	at org.testng.Assert.assertNotNull(Assert.java:408)
+	at marytts.VersionTest.testVersion(VersionTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVersion -->
+      </class> <!-- marytts.VersionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

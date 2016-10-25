@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 84, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.162 sec <<< FAILURE! - in TestSuite
+testVersion(marytts.VersionTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at marytts.VersionTest.testVersion(VersionTest.java:11)
+

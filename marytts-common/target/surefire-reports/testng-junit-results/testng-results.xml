@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="202" started-at="2016-10-24T14:11:44Z" finished-at="2016-10-24T14:11:45Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="202" started-at="2016-10-24T14:11:44Z" finished-at="2016-10-24T14:11:45Z">
+      <class name="marytts.util.string.ByteStringTranslatorTest">
+        <test-method status="PASS" signature="tooLargeList()[pri:0, instance:tooLargeList(marytts.util.string.ByteStringTranslatorTest)]" name="tooLargeList" duration-ms="1" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooLargeList -->
+        <test-method status="PASS" signature="maxListContainsString()[pri:0, instance:maxListContainsString(marytts.util.string.ByteStringTranslatorTest)]" name="maxListContainsString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListContainsString -->
+        <test-method status="PASS" signature="smallListDoesntContainString()[pri:0, instance:smallListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)]" name="smallListDoesntContainString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListDoesntContainString -->
+        <test-method status="PASS" signature="maxListLength()[pri:0, instance:maxListLength(marytts.util.string.ByteStringTranslatorTest)]" name="maxListLength" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListLength -->
+        <test-method status="PASS" signature="maxListContainsByte()[pri:0, instance:maxListContainsByte(marytts.util.string.ByteStringTranslatorTest)]" name="maxListContainsByte" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListContainsByte -->
+        <test-method status="PASS" signature="maxListCompareString()[pri:0, instance:maxListCompareString(marytts.util.string.ByteStringTranslatorTest)]" name="maxListCompareString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListCompareString -->
+        <test-method status="PASS" signature="smallListContainsByte()[pri:0, instance:smallListContainsByte(marytts.util.string.ByteStringTranslatorTest)]" name="smallListContainsByte" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListContainsByte -->
+        <test-method status="PASS" signature="smallListContainsString()[pri:0, instance:smallListContainsString(marytts.util.string.ByteStringTranslatorTest)]" name="smallListContainsString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListContainsString -->
+        <test-method status="PASS" signature="canCreateMaxList()[pri:0, instance:canCreateMaxList(marytts.util.string.ByteStringTranslatorTest)]" name="canCreateMaxList" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canCreateMaxList -->
+        <test-method status="PASS" signature="maxListDoesntContainString()[pri:0, instance:maxListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)]" name="maxListDoesntContainString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListDoesntContainString -->
+        <test-method status="PASS" signature="smallListCompareString()[pri:0, instance:smallListCompareString(marytts.util.string.ByteStringTranslatorTest)]" name="smallListCompareString" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListCompareString -->
+        <test-method status="PASS" signature="smallListDoesntContainByte()[pri:0, instance:smallListDoesntContainByte(marytts.util.string.ByteStringTranslatorTest)]" name="smallListDoesntContainByte" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListDoesntContainByte -->
+        <test-method status="PASS" signature="smallListLength()[pri:0, instance:smallListLength(marytts.util.string.ByteStringTranslatorTest)]" name="smallListLength" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallListLength -->
+        <test-method status="PASS" signature="maxListCompareString2()[pri:0, instance:maxListCompareString2(marytts.util.string.ByteStringTranslatorTest)]" name="maxListCompareString2" duration-ms="0" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxListCompareString2 -->
+      </class> <!-- marytts.util.string.ByteStringTranslatorTest -->
+      <class name="marytts.util.dom.DomUtilsTest">
+        <test-method status="PASS" signature="validatingParseStream()[pri:0, instance:validatingParseStream(marytts.util.dom.DomUtilsTest)]" name="validatingParseStream" duration-ms="91" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingParseStream -->
+        <test-method status="PASS" signature="validatingParseString()[pri:0, instance:validatingParseString(marytts.util.dom.DomUtilsTest)]" name="validatingParseString" duration-ms="42" started-at="2016-10-24T16:11:45Z" finished-at="2016-10-24T16:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingParseString -->
+      </class> <!-- marytts.util.dom.DomUtilsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
